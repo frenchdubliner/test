@@ -28,7 +28,7 @@ playerY = 480
 playerX_change = 0
 
 #Enemy
-enemyImg = pygame.image.load('poison.png')
+enemyImg = pygame.image.load('sea.png')
 enemyX = random.randint (0,800)
 enemyY = random.randint (70,300)
 enemyX_change = 0

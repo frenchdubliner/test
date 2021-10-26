@@ -18,7 +18,7 @@ pygame.init()
 screen = pygame.display.set_mode((800,600))
 
 #Background
-background = pygame.image.load('tropical.png')
+background = pygame.image.load('background.png')
 
 #Title and Icon
 pygame.display.set_caption("Olivier the unicorn")
@@ -40,14 +40,14 @@ enemyY_change = []
 num_of_enemies = 6
 
 for i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('poison.png'))
+    enemyImg.append(pygame.image.load('sea.png'))
     enemyX.append(random.randint(0,735))
     enemyY.append(random.randint(50,150))
     enemyX_change.append(4)
     enemyY_change.append(40)
 
 #Bullet
-bulletImg = pygame.image.load('magic.png')
+bulletImg = pygame.image.load('bullet.png')
 bulletX = 0
 bulletY = 480
 bulletX_change = 0
